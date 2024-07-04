@@ -191,41 +191,45 @@
 
   <section class="contact" id="contact">
     <div class="content">
-      <div class="items">
-        <div class="item">
-          <div class="heading">
-            <h1 class="title">Contact our travel agency</h1>
-            <div class="subtitle">We respond within 24 hours and work on weekends too.</div>
-          </div>
-          <div class="row">
-            <div class="card">
-              <div class="line">
-                <span><i class="ri-phone-line"></i></span>
-                <h4>Call us</h4>
-              </div>
-              <p>+91 97652 54869</p>
+        <div class="items">
+            <div class="item">
+                <div class="heading">
+                    <h1 class="title">Contact our travel agency</h1>
+                    <div class="subtitle">We respond within 24 hours and work on weekends too.</div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="line">
+                            <span><i class="ri-phone-line"></i></span>
+                            <h4>Call us</h4>
+                        </div>
+                        <p>+91 97652 54869</p>
+                    </div>
+                    <div class="card">
+                        <div class="line">
+                            <span><i class="ri-mail-line"></i></span>
+                            <h4>Mail us</h4>
+                        </div>
+                        <p>shreedattakrupa@gmail.com</p>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-              <div class="line">
-                <span><i class="ri-mail-line"></i></span>
-                <h4>Mail us</h4>
-              </div>
-              <p>shreedattakrupa@gmail.com</p>
-            </div>
-          </div>
-        </div>
 
-        <div class="item">
-          <form action="" method="post">
-            <input type="email" class="input" placeholder="Your Email" required>
-            <input type="text" class="input" placeholder="Your Phone" required>
-            <textarea rows="6" class="input" placeholder="Your Message" required></textarea>
-            <button class="btn-contact" type="submit">Send a message!</button>
-          </form>
+            <div class="item">
+                <form action="message.php" method="post">
+                    <input type="email" name="email" class="input" placeholder="Your Email" required> 
+                    <input type="text" name="name" class="input" placeholder="Your Name" required>
+                    <input type="text" name="phone" class="input" placeholder="Your Phone" required>
+                    <textarea rows="6" name="message" class="input" placeholder="Your Message" required></textarea>
+                    <div class="button-area">
+                      <button class="btn-contact" type="submit">Send a message!</button>
+                      <span></span>
+                </form>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
+
 
   <footer class="footer">
     <div class="content">
