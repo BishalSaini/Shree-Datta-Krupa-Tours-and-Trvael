@@ -79,7 +79,7 @@ statusTxt = form.querySelector(".button-area span");
 
 form.onsubmit = (e)=>{
   e.preventDefault();
-  statusTxt.style.color = "#F35405";
+  statusTxt.style.color = "#0D6EFD";
   statusTxt.style.display = "block";
   statusTxt.innerText = "Sending your message...";
   form.classList.add("disabled");
@@ -104,3 +104,12 @@ form.onsubmit = (e)=>{
   let formData = new FormData(form);
   xhr.send(formData);
 }
+
+function loaderAnimation() {
+    var loader = document.querySelector("#loader")
+    setTimeout(function () {
+        loader.style.top = "-100%"
+    }, 4200)
+}
+loaderAnimation(); 
+
